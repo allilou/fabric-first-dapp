@@ -110,6 +110,8 @@ async function main() {
 			// Get the contract from the network.
 			const contract = network.getContract(chaincodeName);
 
+			// console.log(contract)
+
 			// Initialize a set of hiring contracts data on the channel using the chaincode 'InitLedger' function.
 			// This type of transaction would only be run once by an application the first time it was started after it
 			// deployed the first time. Any updates to the chaincode deployed later would likely not need to run

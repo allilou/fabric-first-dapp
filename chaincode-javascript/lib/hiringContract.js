@@ -118,4 +118,4 @@ class HiringContract extends Contract {
 
 }
 
-module.exports = HiringContractTransfer;
+module.exports = HiringContract;
